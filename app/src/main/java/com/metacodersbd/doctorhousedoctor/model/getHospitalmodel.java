@@ -2,7 +2,7 @@ package com.metacodersbd.doctorhousedoctor.model;
 
 public class getHospitalmodel {
 
-    String name , id , location  ;
+    String name , id , location  , imageLink ;
 
     public getHospitalmodel() {
     }
@@ -11,6 +11,21 @@ public class getHospitalmodel {
         this.name = name;
         this.id = id;
         this.location = location;
+    }
+
+    public getHospitalmodel(String name, String id, String location, String imageLink) {
+        this.name = name;
+        this.id = id;
+        this.location = location;
+        this.imageLink = imageLink;
+    }
+
+    public String getImageLink() {
+        return imageLink;
+    }
+
+    public void setImageLink(String imageLink) {
+        this.imageLink = imageLink;
     }
 
     public String getLocation() {
