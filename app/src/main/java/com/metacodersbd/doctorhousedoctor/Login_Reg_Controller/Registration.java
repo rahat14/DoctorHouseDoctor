@@ -17,6 +17,7 @@ import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.metacodersbd.doctorhousedoctor.Doctor_Ac_Create;
 import com.metacodersbd.doctorhousedoctor.MainActivity;
 import com.metacodersbd.doctorhousedoctor.R;
 
@@ -93,7 +94,7 @@ public class Registration extends AppCompatActivity {
                         if (task.isSuccessful()){
 
 
-                            Intent intent = new Intent(getApplicationContext()  , MainActivity.class);
+                            Intent intent = new Intent(getApplicationContext()  , Doctor_Ac_Create.class);
                             startActivity(intent);
                             finish();
 

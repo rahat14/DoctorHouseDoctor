@@ -11,7 +11,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".accpectedList"></activity>
+        <activity android:name=".MainActivity" />
         <activity
             android:name=".Login_Reg_Controller.signInPage"
             tools:ignore="InnerclassSeparator">
@@ -22,6 +23,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Login_Reg_Controller.Registration" />
+        <activity android:name=".Doctor_Ac_Create" />
     </application>
 
     <uses-permission android:name="android.permission.INTERNET" />
